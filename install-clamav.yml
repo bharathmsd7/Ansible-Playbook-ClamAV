@@ -7,3 +7,5 @@
   tasks:
     - name: Installing ClamAV
       apt: name=clamav state=present
+    - name: Installing ClamTK
+      apt: name=clamtk state=present
